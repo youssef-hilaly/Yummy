@@ -6,7 +6,7 @@ export class validate {
     }
     validatePhone(phone) {
         // only 10 or 11 numbers
-        let regex = /^\d{10,11}$/;
+        let regex = /^(01)[0125]\d{8}$/;
         return regex.test(phone);
     }
     validateEmail(email) {
