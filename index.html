@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+    <title>Yummy</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-dark py-4">
+
+    <!-- load page -->
+    <div class="load-page">
+        <i class="fa-solid fa-spinner fa-spin text-white fs-4rem"></i>
+    </div>
+
+    <nav class="position-fixed top-0 vh-100 z-3 d-flex">
+        <div class="content d-flex flex-column justify-content-between h-100 bg-black">
+            <div class="links d-flex flex-column overflow-hidden">
+                <a class="cursor-pointer" data-page="search">Search</a>
+                <a class="cursor-pointer" data-page="category">Category</a>
+                <a class="cursor-pointer" data-page="area">Area</a>
+                <a class="cursor-pointer" data-page="ingredients">Ingredients</a>
+                <a class="cursor-pointer" data-page="contact">Contact Us</a>
+            </div>
+            <footer>
+                <div class="social fs-14">
+                    <a href=""><i class="fa-brands fa-facebook text-white"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter text-white"></i></a>
+                    <a href=""><i class="fa-solid fa-globe text-white"></i></a>
+                </div>
+                <div class="copy text-white fs-14">
+                    <p>Copyright Â© 2019 All Rights<br>Reserved.</p>
+                </div>
+            </footer>
+        </div>
+        <div
+            class="toggle bg-white opacity-75 h-100 w-12 d-flex flex-column justify-content-between align-items-center">
+            <div class="logo mt-4">
+                <img src="img/logo.png" class="w-100" alt="">
+            </div>
+            <div class="toggle-btn">
+                <i class="fa-solid fa-bars cursor-pointer fs-1"></i>
+                <i class="fa-solid fa-xmark d-none cursor-pointer fs-1"></i>
+            </div>
+            <div class="soical mb-4 d-flex flex-column">
+                <a href=""><i class="fa-solid fa-globe text-black"></i></a>
+                <a href=""><i class="fa-solid fa-share-nodes text-black"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="search" class="page d-none">
+        <div class="container">
+            <div class="row">
+                <!-- search page -->
+                <div class="col-md-6">
+                    <div class="search search-name">
+                        <input type="text" class="form-control bg-black text-white" placeholder="Search By Name">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="search meal-letter">
+                        <input type="text" class="form-control bg-black text-white" maxlength="1"
+                            placeholder="Search By First Letter">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="meals" class="page">
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </section>
+
+    <section id="category" class="page">
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </section>
+
+    <section id="area" class=" page">
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </section>
+
+    <section id="ingredients" class="page">
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="page">
+        <div class="container">
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
