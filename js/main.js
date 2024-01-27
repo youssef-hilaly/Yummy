@@ -1,11 +1,11 @@
-import { getHTMLMeals } from './drawMeals.js';
-import { SingleMeal } from './singleMeal.js';
-import { SearchMeal } from './searchMeal.js';
-import { Category } from './category.js';
-import { Area } from './area.js';
-import { Ingredient } from './Ingredient.js';
-import { getHTMLContact } from './contact.js';
-import { validate } from './validate.js';
+import { getHTMLMeals } from './modules/drawMeals.js';
+import { SingleMeal } from './modules/singleMeal.js';
+import { SearchMeal } from './modules/searchMeal.js';
+import { Category } from './modules/category.js';
+import { Area } from './modules/area.js';
+import { Ingredient } from './modules/Ingredient.js';
+import { getHTMLContact } from './modules/contact.js';
+import { validate } from './modules/validate.js';
 
 
 const singleMealObj = new SingleMeal();
