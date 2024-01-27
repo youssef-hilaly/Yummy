@@ -83,6 +83,7 @@ $('.toggle-btn').click(function () {
 $('nav .links a').click(function () {
     let page = $(this).data('page');
     // delete content before navigation
+    loadingPage.fadeIn(0);
     deleteContent();
 
     switch (page) {
