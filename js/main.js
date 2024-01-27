@@ -83,7 +83,6 @@ $('.toggle-btn').click(function () {
 $('nav .links a').click(function () {
     let page = $(this).data('page');
     // delete content before navigation
-    loadingPage.fadeIn(0);
     deleteContent();
 
     switch (page) {
@@ -106,7 +105,6 @@ $('nav .links a').click(function () {
     // toggle btn click
     // click on nav btn to close nav after navigation
     $('.toggle-btn').children().not('.d-none').click();
-    loadingPage.fadeOut(500);
 });
 // --------------------- end nav functions ---------------------
 
